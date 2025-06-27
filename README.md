@@ -23,9 +23,7 @@
 # export credential via commandline 
 ```
 export AWS_ACCESS_KEY_ID=xxx
-
 export AWS_SECRET_ACCESS_KEY=xxx
-
 export AWS_REGION=us-east-1
 
 ```
@@ -33,13 +31,14 @@ export AWS_REGION=us-east-1
 ✅ Example of ~/.aws/credentials file:
 
 [dev]
+
 aws_access_key_id = YOUR_DEV_ACCESS_KEY
+
 aws_secret_access_key = YOUR_DEV_SECRET_KEY
 
-[uat]
-aws_access_key_id = YOUR_UAT_ACCESS_KEY
-aws_secret_access_key = YOUR_UAT_SECRET_KEY
+✅ Example of ~/.aws/config file:
+```
+[default]
+region = us-east-1
+```
 
-[prod]
-aws_access_key_id = YOUR_PROD_ACCESS_KEY
-aws_secret_access_key = YOUR_PROD_SECRET_KEY
