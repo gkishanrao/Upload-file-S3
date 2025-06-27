@@ -83,3 +83,18 @@ aws_secret_access_key = YOUR_DEV_SECRET_KEY
 region = us-east-1
 ```
 
+
+```
+<dependency>
+    <groupId>software.amazon.awssdk</groupId>
+    <artifactId>secretsmanager</artifactId>
+</dependency>
+
+<dependency>
+    <groupId>software.amazon.awssdk</groupId>
+    <artifactId>auth</artifactId>
+</dependency>
+
+```
+
+
